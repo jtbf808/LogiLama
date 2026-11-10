@@ -22,6 +22,7 @@
 /* PAGE STRUCTURE STYLES (Header, Footer, Logo, etc.) */
 /* -----These define the structure and layout of key page elements----- */
 
+@import url('partials/footer.css');
 
 /* UI STYLES (Buttons, Menu, Cards, etc.) */
 /* -----These define the appearance and behavior of user interface components----- */

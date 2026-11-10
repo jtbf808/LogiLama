@@ -13,6 +13,8 @@ body {
 
 .site-header {
 
+    z-index: 1000;
+
 
     padding-block: var(--site-header-block-padding);
 
@@ -370,41 +372,7 @@ body {
 }
 
 
-.site-footer {
 
-    background-color: var(--site-footer-background-color, white);
-    padding: var(--unit-small);
-    display: flex;
-    justify-content: space-between;
-    gap: var(--unit-small);
-
-    a {
-        color: var(--site-footer-text-color, black);
-    }
-
-
-    .footer-nav {
-
-
-        ul {
-
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1em;
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        li {
-            margin: 0;
-            padding: 0;
-        }
-
-    }
-
-
-}
 
 
 section {

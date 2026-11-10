@@ -1,26 +1,32 @@
-.hero {
-    position: relative;
-    overflow: hidden;
-    /* clips the circle */
-    min-height: 100vh;
+body {
+    overflow-x: clip;
 }
+
+/* HERO CIRCLE */
 
 .hero-circle {
     position: absolute;
     width: 160vw;
-    /* much wider than the screen */
     height: 160vw;
+    left: -30vw;
+    top: -115vw;
+    border-radius: 50%;
+    background-color: #E0C1E4;
+    z-index: -10000;
+}
+
+/* BODY CIRCLE */
+
+/* FOOTER CIRCLE */
+
+.footer-circle {
+    position: absolute;
+    top: 40px;
     left: 50%;
-    top: -220%;
-    /* pushes most of the circle below the fold */
+    width: 2400px;
+    height: 2400px;
     transform: translateX(-50%);
     border-radius: 50%;
     background-color: #E0C1E4;
     z-index: 0;
-}
-
-.hero-content {
-    position: relative;
-    z-index: 1;
-    /* keeps content above the circle */
 }
