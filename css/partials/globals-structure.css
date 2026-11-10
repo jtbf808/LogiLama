@@ -145,7 +145,7 @@ body {
                 scale: .8;
 
                 >* {
-                    transition-origin: center;
+                    transform-origin: center;
                 }
 
                 &.rotate-to-x {
@@ -414,8 +414,6 @@ section {
 }
 
 /* HERO SECTION */
-
-
 
 
 /*  TWO COLUMNS LAYOUT WITH AN ASIDE */
