@@ -2,6 +2,7 @@
 @media (max-width: 800px) {
     .site-footer {
         padding-top: 80px;
+
     }
 
     .footer-row {
@@ -41,6 +42,7 @@
     width: 100%;
     min-height: 455px;
     margin: 0 auto;
+    background-color: var(--site-footer-background-color, #C9BAFF);
 
     a {
         color: var(--site-footer-text-color, black);
